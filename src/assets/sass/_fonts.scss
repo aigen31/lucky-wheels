@@ -1,0 +1,11 @@
+@import "mixins/font-face";
+
+@include font-face("Montserrat", "assets/fonts/Montserrat/Montserrat-Regular", 400, normal);
+@include font-face("Montserrat", "assets/fonts/Montserrat/Montserrat-Medium", 500, normal);
+@include font-face("Montserrat", "assets/fonts/Montserrat/Montserrat-SemiBold", 600, normal);
+@include font-face("Montserrat", "assets/fonts/Montserrat/Montserrat-Bold", 700, normal);
+@include font-face("Montserrat", "assets/fonts/Montserrat/Montserrat-ExtraBold", 800, normal);
+@include font-face("Montserrat", "assets/fonts/Montserrat/Montserrat-Black", 900, normal);
+@include font-face("Montserrat", "assets/fonts/Montserrat/Montserrat-Light", 300, normal);
+@include font-face("Montserrat", "assets/fonts/Montserrat/Montserrat-ExtraLight", 200, normal);
+@include font-face("Montserrat", "assets/fonts/Montserrat/Montserrat-Thin", 100, normal);

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/libs/glide/dist/css/glide.core.min.css">
+  <link rel="stylesheet" href="assets/libs/slick/slick/slick.css">
+  <link rel="stylesheet" href="assets/libs/simple.modal.js/simple.modal.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="modal" data-id="callback">
+  <p class="modal__title">Оставьте заявку</p>
+  <p class="modal__subtitle">или позвоните по номеру 8 (843) 555-55-55</p>
+
+  <form action="" class="modal__form" method="POST">
+    <formfield class="modal__group">
+      <input type="text" name="name" placeholder="Имя" class="input modal__input" required>
+      <input type="tel" name="tel" placeholder="Номер телефона" class="input modal__input" required>
+
+      <a class="btn modal__btn">
+        Заказать звонок
+      </a>
+
+      <div class="modal__accept">
+        <input required type="checkbox" class="modal__checkbox" id="modal__checkbox">
+        <label for="modal__checkbox" class="modal__label">
+          <p class="modal__accept-text">
+            Я даю согласие на обработку моих персональных данных,
+            соглашаюсь с пользовательским соглашением и политикой
+            конфиденциальности, ознакомлет с политикой
+          </p>
+        </label>
+      </div>
+    </formfield>
+  </form>
+</div>
+
+<header class="header-main">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="header-main__wrapper">
+          <div class="header-main__links">
+            <a href="#" class="header-main__link">
+              <img src="assets/img/dist/logo-1.png" alt="" class="header-main__logo">
+              
+              <span class="header-main__logo-text">
+                Порошковая
+                покраска
+                в Казани
+              </span>
+            </a>
+
+            <button class="hamburger hamburger--collapse" id="hamburger" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+          </div>
+
+          <div class="header-main__contacts">
+            <a href="#" class="btn header-main__btn" data-modal="callback">Отправить заявку</a>
+
+            
+
+            <a href="#" class="header-main__vk-link"><img src="assets/img/dist/vk.svg" alt=""
+                class="header-main__vk-img"></a>
+
+            <div class="header-main__info">
+              <a href="tel:+78435555555" class="header-main__tel">8 (843) <span>555-55-55</span></a>
+
+              <address class="header-main__address">
+                г. Казань, ул. Улица, д. 7
+              </address>
+            </div>
+
+            <ul class="header-main__soc-list">
+              <li class="header-main__soc-item"><a href="#"><img src="assets/img/dist/wa.svg" alt="" class="header-main__soc-img"></a></li>
+              <li class="header-main__soc-item"><a href="#"><img src="assets/img/dist/tg.svg" alt="" class="header-main__soc-img"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-main__nav-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav class="header-main__nav">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="#section-main">
+                  Главная
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a href="#section-price">
+                  Цены на покраску
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a href="#section-price">
+                  Фото работ
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a href="#section-why">
+                  О нас
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a href="#section-parts">
+                  Этапы работ
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a href="#section-faq">
+                  F.A.Q
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a href="#section-contacts">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
